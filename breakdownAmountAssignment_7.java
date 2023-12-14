@@ -13,14 +13,12 @@ public class breakdownAmountAssignment_7 {
         scanner.close();
 
         for (int i = 0; i < notes.length; i++) {
-            if (inputAmount >=notes[i]) {
-                totalCount=inputAmount/notes[i];
-                inputAmount = inputAmount -(totalCount*notes[i]);
-                System.out.println(notes[i]+" "+totalCount);
+            if (inputAmount >= notes[i]) {
+                totalCount = inputAmount / notes[i];
+                inputAmount = inputAmount - (totalCount * notes[i]);
+                System.out.println(notes[i] + " " + totalCount);
             }
-
         }
-
     }
 }
 
